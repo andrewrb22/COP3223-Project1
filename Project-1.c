@@ -31,7 +31,8 @@ total1 = credits1 * 120.25 ;
 total2 = credits2 * 120.25;
 paymenttotal = total1 + total2 + fee;
 
-printf(" \nVALENCE COMMUNITY COLLEGE \n ORLANDO FL 10101 \n ************************* \n Fee Invoice Prepared for Student V-%d \n\n 1 Credit Hour = $120.25 \n\n CRN \t\t CREDIT HOURS \t\t Total\n %d \t\t %d\t\t\t $%.2f \n %d \t\t %d\t\t\t $%.2f\n\n \t\tHealth & id fees\t$35.00\n\n--------------------------------------\n\n\t\t Total Payments\t $%.2f\n",studentId, course1,credits1,total1,course2,credits2,total2,paymenttotal );
+printf(" \n VALENCE COMMUNITY COLLEGE \n ORLANDO FL 10101 \n ************************* \n Fee Invoice Prepared for Student V-%d \n\n 1 Credit Hour = $120.25 \n\n CRN \t\t CREDIT HOURS \t\t Total",studentId);
+printf("\n %d \t\t %d\t\t\t $%.2f \n %d \t\t %d\t\t\t $%.2f\n\n \t\tHealth & id fees\t$35.00\n\n--------------------------------------\n\n\t\t Total Payments\t $%.2f\n", course1,credits1,total1,course2,credits2,total2,paymenttotal);
 
 
 
